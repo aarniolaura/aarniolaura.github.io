@@ -12,6 +12,13 @@ and also briefly reflect on what you learned during the week
 list, image and table on the cmdline-course page. 
 
 ### Week 1. Introduction to command-line environments
+The first task was to download Ubuntu for Windows and create a UNIX account. We learned how to run basic commands on the command-line, like creating directories and files, and copying files between Windows and Linux. 
+We also covered some differences between file formats, and learned to use nano text editor to create and edit text files. 
+Some basic commands learned in the first week:
+* cp, rm, mv 
+* ls, cd, mkdir
+* pwd, whoami, wget
+* cat, less, nano
 
 
 
