@@ -49,14 +49,13 @@ This week’s focus was on text processing. Lots of new commands to process text
 We also covered regular expressions and how to use them and `grep` (Global Regular Expressions Print) for searching tasks.  
 
 The third week included two text processing tasks:
-1. Creating a frequency list for the Gutenberg text file Life of Bee
+1. Creating a frequency list for the Gutenberg text file Life of Bee  
 `cat life_of_bee.txt  | dos2unix | sed 's/^$/#/' | tr '\n' ' ' | sed -E 's/([.?!]) ([A-Z])/\1# \2/g' | sed -E 's/([IVX][.])#/\1/g' | tr '#' '\n' | sed 's/^ *//' | sed 's/ *$//' | grep -v "^$" | > life_of_bee.sent`
 
 One more important point in this task: commands can be chained together using pipes (`|`).
 
-2. Creating a sentence per line file for Life of Bee
+2. Creating a sentence per line file for Life of Bee  
 `cat life_of_bee.txt  | dos2unix | sed 's/^$/#/' | tr '\n' ' ' | sed -E 's/([.?!]) ([A-Z])/\1# \2/g' | sed -E 's/([IVX][.])#/\1/g' | tr '#' '\n' | sed 's/^ *//' | sed 's/ *$//' | grep -v "^$" | > life_of_bee.sent`
-We learned to redirect standard streams: standard input, standard output and standard error – using `< input`, ` > output` and `2> error`
 
 
 ### Week 4. Scripting and UNIX Configuration Files
