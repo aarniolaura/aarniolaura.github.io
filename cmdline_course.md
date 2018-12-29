@@ -58,8 +58,8 @@ One more important point in this task: commands can be chained together using pi
 
 
 ### Week 4. Scripting and UNIX Configuration Files
-
-
+In this week’s lessons we learned about Unix environment variables, which are variables that are set up in the shell when logging in. Each variable has a value assigned to it. We learned how to make an environment variable and how to add it to the .bashrc file, so it will be a permanent setting. We also looked at other things in the .bashrc file, such as how to add aliases, how to set up a nice command line prompt, and how to make changes in the PATH variable.  
+Scripts
 
 ### Week 5. Installing and Running Programs
 
