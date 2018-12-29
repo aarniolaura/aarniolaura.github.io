@@ -62,6 +62,9 @@ In this week’s lessons we learned about Unix environment variables, which are 
 Scripts
 
 ### Week 5. Installing and Running Programs
+This week we learned about running and installing software.
+Before installing a program you need to also install libraries or other software that it depends on for it to function properly. Package managers take care of installing all the dependencies. We tried this in practice by installing ImageMagick with `apt-get`. We also used Python’s package manager pip to install python packages such as torchvision.  
+We also used `make` to compile a C program manually. For this we first downloaded the program file, then prepared the compilation with `./configure`. When the makefile was ready, we used make to do the required connections, and finally `make install` to finish the installation of the program.
 
 ### Week 6. Version Control
 
