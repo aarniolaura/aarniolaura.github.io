@@ -3,13 +3,9 @@ layout: default
 ---
 
 ## Command-line Course
-You should write a short overall introduction to the course and
-one section for every week (for the final week, you can talk about 
-Jekyll and Github Pages). Please use appropriate headers for each 
-section. You should briefly describe the main content of each week 
-and also briefly reflect on what you learned during the week 
-(maybe 1-3 sentences for reflection). You need to include at least one 
-list, image and table on the cmdline-course page. 
+The aim of this course was to:
+
+
 
 ### Week 1. Introduction to Command-line Environments
 The first task was to download Ubuntu for Windows and create a UNIX account. We learned how to run basic commands on the command-line, like creating directories and files, and copying files between Windows and Linux.  
@@ -38,11 +34,11 @@ Finally, there was also some information about how to view currently running pro
 
 ### Week 3. Corpus Processing
 This week’s focus was on text processing. Lots of new commands to process text files where introduced, such as 
-* `head, tail`
-* `sort`
+* `head, tail`(show the beginning or the end of a file)
+* `sort`(sort alphabetically)
 * `wc` (word count)
-* `uniq`
-* `tr`
+* `uniq` (omit repeated lines)
+* `tr` (translate = replace or remove characters)
 * `sed` (stream editor, makes changes in a file without opening it)  
 
 We also covered regular expressions and how to use them and `grep` (Global Regular Expressions Print) for searching tasks.  
@@ -67,17 +63,15 @@ Before installing a program you need to also install libraries or other software
 We also used `make` to compile a C program manually. For this we first downloaded the program file, then prepared the compilation with `./configure`. When the makefile was ready, we used `make` to do the required connections, and finally `make install` to finish the installation of the program.
 
 ### Week 6. Version Control
-Sixth week consisted mostly of Git and GitHub tutorials. It is useful to use version control (to keep track of all the modifications made and it is possible to return to an earlier version of the code). 
+Sixth week consisted mostly of Git and GitHub tutorials. It is useful to use version control so we can keep track of all the modifications made. That way it is also possible to return to an earlier version of the code that is still working properly. 
 We learned to use some fundamental git commands in the command line, such as:
 * `git init` (to create a local repository)
-* `git status` (to check if the changes have been added from the working directory to the staging area, and if there is any changes to be committed to the git repository)
+* `git status` (to check if the changes have been added from the working directory to the staging area, and if there are any changes to be committed to the git repository)
 * `git add –A` (to add all the changes to the staging area)
 * `git commit –m “message”` (to commit all changes to the repository)
 * `git pull origin master` (to get the newest version of the code)
 * `git push origin master` (to push the committed changes to the remote repository)
 In addition, we learned how to make new branches, which can later be merged with the master branch.
 
-
-
 ### Week 7. Building Webpages Using GitHub Pages
-
+The last week of the course was to do a project using GitHub pages, Jekyll and Markdown.
