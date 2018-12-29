@@ -38,12 +38,12 @@ Finally, there was also some information about how to view currently running pro
 
 ### Week 3. Corpus Processing
 This week’s focus was on text processing. Lots of new commands to process text files where introduced, such as 
-* head, tail
-* sort
-* wc (word count)
-* uniq
-* tr
-* sed (stream editor, makes changes in a file without opening it)  
+* `head, tail`
+* `sort`
+* `wc` (word count)
+* `uniq`
+* `tr`
+* `sed` (stream editor, makes changes in a file without opening it)  
 
 We also covered regular expressions and how to use them and `grep` (Global Regular Expressions Print) for searching tasks.  
 
@@ -58,6 +58,8 @@ One more important point in this task: commands can be chained together using pi
 
 
 ### Week 4. Scripting and UNIX Configuration Files
+
+
 
 ### Week 5. Installing and Running Programs
 
