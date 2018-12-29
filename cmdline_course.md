@@ -45,9 +45,18 @@ We also covered regular expressions and how to use them and `grep` (Global Regul
 
 The third week included two text processing tasks. One of them was to create a frequency list for the Gutenberg text file Life of Bee.
 One more important point in this task: commands can be chained together using pipes (`|`).
-  
-`cat life_of_bee.txt  | dos2unix | sed 's/^$/#/' | tr '\n' ' ' | sed -E 's/([.?!]) ([A-Z])/\1# \2/g' | sed -E 's/([IVX][.])#/\1/g' | tr '#' '\n' | sed 's/^ *//' | sed 's/ *$//' | grep -v "^$" | > life_of_bee.sent`
+1. one word per line (replacing newlines, carriage return, newline, tab and space with a newline, so every word will begin a new line) and getting rid of empty lines (`-s`)
+    
+   cat life_of_bee.txt | tr -s '\n\r\t ' '\n'| 
+2. getting rid of punctuation marks (delete the complement of alphanumerics)
 
+   tr -dc "A-Za-z0-9\n'" | 
+3. sorting it in alphabetical order and counting consecutive lines that have identical words in them
+  
+   sort | uniq -c | 
+4. sorting it in reverse numerical order and redirecting it to a frequency list file
+
+   sort -nr > life_of_bee.freq
 
 ### Week 4. Scripting and UNIX Configuration Files
 In this week’s lessons we learned about Unix environment variables, which are variables that are set up in the shell when logging in. Each variable has a value assigned to it. We learned how to make an environment variable and how to add it to the .bashrc file, so it will be a permanent setting. We also looked at other things in the .bashrc file, such as how to add aliases, how to set up a nice command line prompt, and how to make changes in the PATH variable.  
