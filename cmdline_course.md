@@ -64,9 +64,20 @@ Scripts
 ### Week 5. Installing and Running Programs
 This week we learned about running and installing software.
 Before installing a program you need to also install libraries or other software that it depends on for it to function properly. Package managers take care of installing all the dependencies. We tried this in practice by installing ImageMagick with `apt-get`. We also used Python’s package manager pip to install python packages such as torchvision.  
-We also used `make` to compile a C program manually. For this we first downloaded the program file, then prepared the compilation with `./configure`. When the makefile was ready, we used make to do the required connections, and finally `make install` to finish the installation of the program.
+We also used `make` to compile a C program manually. For this we first downloaded the program file, then prepared the compilation with `./configure`. When the makefile was ready, we used `make` to do the required connections, and finally `make install` to finish the installation of the program.
 
 ### Week 6. Version Control
+Sixth week consisted mostly of Git and GitHub tutorials. It is useful to use version control (to keep track of all the modifications made and it is possible to return to an earlier version of the code). 
+We learned to use some fundamental git commands in the command line, such as:
+* `git init` (to create a local repository)
+* `git status` (to check if the changes have been added from the working directory to the staging area, and if there is any changes to be committed to the git repository)
+* `git add –A` (to add all the changes to the staging area)
+* `git commit –m “message”` (to commit all changes to the repository)
+* `git pull origin master` (to get the newest version of the code)
+* `git push origin master` (to push the committed changes to the remote repository)
+In addition, we learned how to make new branches, which can later be merged with the master branch.
+
+
 
 ### Week 7. Building Webpages Using GitHub Pages
 
