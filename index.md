@@ -22,6 +22,9 @@ My email address is laura.t.aarnio@helsinki.fi.
 
 ## Projects
 
+[Command-line Course Project](https://github.com/aarniolaura/cmdline-course)
+This is a project made in Command-line Course. It uses [Gutenberg book text files](https://www.gutenberg.org/wiki/Main_Page) and creates frequency lists and sentence-per-line files for each book.
+
 ## Curriculum Vitae
 
 [My CV](/assets/documents/CV_LauraAarnio.pdf)
