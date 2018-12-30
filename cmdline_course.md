@@ -76,6 +76,11 @@ This week we also did two text processing tasks, but instead of writing the comm
 
 ![Corcordance for word queen](https://raw.githubusercontent.com/aarniolaura/aarniolaura.github.io/master/assets/img/concordance.jpg) 
 
+Before writing the commands, there has to be `#! /bin/bash` written in the first line of the script, so it will be run by the bash shell.  
+An example from the script where we are using sed –E to substitute everything before the center word ($WF) with the center word and 30 characters before it ( in other words everything before the 30 characters will be deleted):  
+`sed -E "s/.*(.{$CONTEXT}$WF)/\1/" | `
+and then doing the same thing to every character after the center word + 30 characters:  
+`sed -E "s/($WF.{$CONTEXT}).*/\1/" `  
 
 ### Week 5. Installing and Running Programs
 This week we learned about running and installing software.
