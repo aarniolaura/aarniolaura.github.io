@@ -24,7 +24,7 @@ My email address is laura.t.aarnio@helsinki.fi.
 
 ## Curriculum Vitae
 
-[My CV](https://github.com/aarniolaura/aarniolaura.github.io/blob/master/assets/documents/CV_LauraAarnio.pdf)
+[My CV](/assets/documents/CV_LauraAarnio.pdf)
 
 ## Misc. 
 
