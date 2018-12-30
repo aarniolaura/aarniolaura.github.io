@@ -3,9 +3,9 @@ layout: default
 ---
 
 ## Command-line Course
-The aim of this course was to:
-
-
+The aim of this course was to get the hang of a UNIX system and learn basic skills that could be useful in further courses on language technology. The main focus was to execute UNIX commands on a command-line and to learn to process text in useful ways (for building a corpus for example). We were also taught how to use regular expressions for various text processing tasks, as well as how to write scripts and a simple program using `makefile`.
+In addition, quite a few other things were worked with, such as installing and running programs, and using version control to facilitate working with projects.  
+All in all, it has been a course with quite a lot of content that will surely come in handy later. The emphasis has been on gaining practical knowledge, while also learning more about how computers and programs work. 
 
 ### Week 1. Introduction to Command-line Environments
 The first task was to download Ubuntu for Windows and create a UNIX account. We learned how to run basic commands on the command-line, like creating directories and files, and copying files between Windows and Linux.  
