@@ -3,7 +3,7 @@ layout: default
 ---
 
 ## Command-line Course
-The aim of this course was to get the hang of a UNIX system and learn basic skills that could be useful in further courses on language technology. The main focus was to execute UNIX commands on a command-line and to learn to process text in useful ways (for building a corpus for example). We were also taught how to use regular expressions for various text processing tasks, as well as how to write scripts and a simple program using `makefile`.
+The aim of this course was to get the hang of a UNIX system and learn basic skills that could be useful in further courses on language technology. The main focus was to execute UNIX commands on a command-line and to learn to process text in useful ways. We were also taught how to use regular expressions for various text processing tasks, as well as how to write scripts and a simple program using `makefile`.
 In addition, quite a few other things were worked with, such as installing and running programs, and using version control to facilitate working with projects.  
 All in all, it has been a course with quite a lot of content that will surely come in handy later. The emphasis has been on gaining practical knowledge, while also learning more about how computers and programs work. 
 
@@ -56,7 +56,7 @@ One more important point in this task: commands can be chained together using pi
 
 ### Week 4. Scripting and UNIX Configuration Files
 In this week’s lessons we learned about Unix environment variables, which are variables that are set up in the shell when logging in. Each variable has a value assigned to it. We learned how to make an environment variable and how to add it to the .bashrc file, so it will be a permanent setting. We also looked at other things in the .bashrc file, such as how to add aliases, how to set up a nice command line prompt, and how to make changes in the PATH variable.  
-Scripts
+This week we also did two text processing tasks, but instead of writing the commands straight to the command-line, we wrote a script in a text file with .sh (shell script) extension. One of them was the frequency list task from the previous week, and the another was about creating a concordance list for a particular word, in this case, queen:
 
 ### Week 5. Installing and Running Programs
 This week we learned about running and installing software.
@@ -75,4 +75,3 @@ We learned to use some fundamental git commands in the command line, such as:
 In addition, we learned how to make new branches, which can later be merged with the master branch.
 
 ### Week 7. Building Webpages Using GitHub Pages
-The last week of the course was to do a project using GitHub pages, Jekyll and Markdown.
