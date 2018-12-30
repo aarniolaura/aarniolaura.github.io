@@ -4,7 +4,7 @@ layout: default
 
 ## Introduction
 
-I'm a student of Linguistics at University of Helsinki. I have also studied Asian Studies with a focus on Mandarin Chinese.   
+I'm a student of Linguistics at the University of Helsinki. I have also studied Asian Studies with a focus on Mandarin Chinese.   
 I like travelling, reading graphic novels and drinking tea. My other interests include arts and crafts, playing board games and trying to learn new languages.  
 
 ## Find me on
@@ -32,8 +32,8 @@ Here is my [Curriculum Vitae](/assets/documents/CV_LauraAarnio.pdf).
 
 ## Misc. 
 
-[General Linguistics in University of Helsinki](https://www.helsinki.fi/en/faculty-of-arts/research/disciplines/languages/general-linguistics) 
+[General Linguistics at the University of Helsinki](https://www.helsinki.fi/en/faculty-of-arts/research/disciplines/languages/general-linguistics) 
 
-[Webcomics](https://tapas.io/comics?sort_type=LIKE&browse=ALL&genre=1)
+[Webcomics](https://tapas.io/comics?sort_type=LIKE&browse=ALL&genre=1) - Slice of Life comics are my favourite.
 
-[A Firelit Room](http://adarkroom.doublespeakgames.com/)
+[A Firelit Room](http://adarkroom.doublespeakgames.com/) - a simple yet addictive game that works well for procrastination.
