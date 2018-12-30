@@ -14,9 +14,9 @@ Some basic commands learned in the first week:
 * `cp, rm, mv` (copying, deleting and renaming files)
 * `mkdir` (creating a directory)
 * `cd, ls` (changing directory and listing the contents of a directory)
-* `pwd, whoami`(showing the current directory and showing the username)
+* `pwd, whoami` (showing the current directory and showing the username)
 * `wget` (downloading content from the web)
-* `cat, less`(reading and viewing text files on screen)
+* `cat, less` (reading and viewing text files on screen)
 * `nano` (creating and editing a file in the editor)
 
 ### Week 2. Navigating a UNIX System
@@ -78,9 +78,10 @@ We learned to use some fundamental git commands in the command line, such as:
 * `git commit –m “message”` (commit all changes to the repository)
 * `git pull origin master` (get the newest version of the code)
 * `git push origin master` (to push the committed changes to the remote repository) 
-In addition, we learned how to make new branches, which can later be merged with the master branch.
+
+In addition, we learned how to make separate branches to the project, which can later be merged with the master branch.
 
 ### Week 7. Building Webpages Using GitHub Pages
-The task of the last week was to build a homepage in GitHub pages using Jekyll – which generates the webpage – and Markdown – which converts the plain text to HTML.  
-At first this seemed like a very challenging task, maybe a bit too much for a basic course. There were a lot of difficulties with installing Jekyll, because there were some libraries or gems missing, but luckily it was nothing a bit a googling couldn’t fix. 
+The task of the last week was to build a homepage in GitHub pages using **Jekyll** – which generates the webpage – and **Markdown** – which converts the plain text to HTML.  
+At first this seemed like a very challenging task, maybe a bit too much for a basic course. There were a lot of difficulties with installing Jekyll, because there were some libraries or gems missing, but luckily it was nothing a bit a googling couldn’t fix.  
 However, as it turns out, Jekyll is quite easy to use. You don’t really need to know much to get started, since Jekyll does all the work in getting the site working. Despite all the difficulties it has been a rewarding project.
