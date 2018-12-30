@@ -56,8 +56,8 @@ One more important point in this task: commands can be chained together using pi
 
 ### Week 4. Scripting and UNIX Configuration Files
 In this week’s lessons we learned about Unix environment variables, which are variables that are set up in the shell when logging in. Each variable has a value assigned to it. We learned how to make an environment variable and how to add it to the .bashrc file, so it will be a permanent setting. We also looked at other things in the .bashrc file, such as how to add aliases, how to set up a nice command line prompt, and how to make changes in the PATH variable.  
-This week we also did two text processing tasks, but instead of writing the commands straight to the command-line, we wrote a script in a text file with .sh (shell script) extension. One of them was the frequency list task from the previous week, and the another was about creating a concordance list for a particular word, in this case, queen:
-
+This week we also did two text processing tasks, but instead of writing the commands straight to the command-line, we wrote a script in a text file with a .sh (shell script) extension. One of them was the frequency list task from the previous week, and the another was about creating a concordance list for a particular word, in this case, _queen_:  
+![Corcordance for word queen]()
 ### Week 5. Installing and Running Programs
 This week we learned about running and installing software.
 Before installing a program you need to also install libraries or other software that it depends on for it to function properly. Package managers take care of installing all the dependencies. We tried this in practice by installing ImageMagick with `apt-get`. We also used Python’s package manager pip to install python packages such as torchvision.  
