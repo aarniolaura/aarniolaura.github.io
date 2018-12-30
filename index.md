@@ -18,9 +18,13 @@ My email address is laura.t.aarnio@helsinki.fi.
 
 [Command-line Course](https://courses.helsinki.fi/fi/KIK-LG218/126710126), fall 2018
 
-[Fonology - Intermediate Course](https://courses.helsinki.fi/fi/KIK-LG201/124793884), fall 2018
+[Phonology - Intermediate Course](https://courses.helsinki.fi/fi/KIK-LG201/124793884), fall 2018
 
 ## Projects
+
+## Curriculum Vitae
+
+[My CV](https://github.com/aarniolaura/aarniolaura.github.io/blob/master/assets/documents/CV_LauraAarnio.pdf)
 
 ## Misc. 
 
