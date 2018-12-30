@@ -46,16 +46,17 @@ This week’s focus was on text processing. Lots of new commands to process text
 
 We also covered regular expressions and how to use them and `grep` (Global Regular Expressions Print) for searching tasks. 
 Some useful Regex special characters that can be used with `grep –E`:  
-| Metacharacter | Meaning                  |
-| :------------:| -------------------------| 
-| .             | any character            |
-| *             | 0 or more occurrences    |
-| +             | 1 or more occurrences    |
-| ?             | optional                 |
-| ^             | beginning of a line      |
-| $             | end of a line            |
-| \s            | any whitespace character |
-| \b            | word boundary            |
+
+| Metacharacter | Meaning                  |  
+| :------------:| -------------------------|   
+| .             | any character            |  
+| *             | 0 or more occurrences    |  
+| +             | 1 or more occurrences    |  
+| ?             | optional                 |  
+| ^             | beginning of a line      |  
+| $             | end of a line            |  
+| \s            | any whitespace character |  
+| \b            | word boundary            |  
 
 
 The third week included two text processing tasks. One of them was to create a frequency list for the Gutenberg text file Life of Bee.
