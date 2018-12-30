@@ -44,7 +44,7 @@ This week’s focus was on text processing. Lots of new commands to process text
 * `tr` (translate = replace or remove characters)
 * `sed` (stream editor, makes changes in a file without opening it)  
 
-We also covered regular expressions and how to use them and `grep` (Global Regular Expressions Print) for searching tasks. 
+We also covered regular expressions and how to use them and `grep` (Global Regular Expressions Print) for searching tasks.  
 Some useful Regex special characters that can be used with `grep –E`:  
 
 | Metacharacter | Meaning                  |  
