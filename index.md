@@ -28,7 +28,7 @@ This is a project made in the Command-line Course. It uses a couple of [Project 
 
 ## CV
 
-Here is my [Curriculum Vitae](/assets/documents/CV_LauraAarnio.pdf).
+Here is my [Curriculum Vitae](https://github.com/aarniolaura/aarniolaura.github.io/blob/master/assets/documents/CV_LauraAarnio.pdf).
 
 ## Misc. 
 
