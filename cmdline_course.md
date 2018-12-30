@@ -59,12 +59,12 @@ Some useful Regex special characters that can be used with `grep –E`:
 | \b            | word boundary            |  
 
 
-The third week included two text processing tasks. One of them was to create a frequency list for the Gutenberg text file Life of Bee.
+The third week included two text processing tasks. One of them was to create a frequency list for the Gutenberg text file _Life of Bee_.
 One more important point in this task: commands can be chained together using pipes (`|`).
 1. One word per line (replacing newlines, carriage return, newline, tab and space with a newline, so every word will begin a new line) and getting rid of empty lines (`-s`):  
   `cat life_of_bee.txt | tr -s '\n\r\t ' '\n'| `
 2. Getting rid of punctuation marks (delete the complement of alphanumerics):  
-   `tr -dc "A-Za-z0-9\n'" | `
+   `tr -dc "A-Za-z0-9\n"" | `
 3. Sorting it in alphabetical order and counting consecutive lines that have identical words in them:  
    `sort | uniq -c | `
 4. Sorting it in reverse numerical order and redirecting it to a frequency list file:  
@@ -77,8 +77,8 @@ This week we also did two text processing tasks, but instead of writing the comm
 ![Corcordance for word queen](https://raw.githubusercontent.com/aarniolaura/aarniolaura.github.io/master/assets/img/concordance.jpg) 
 
 Before writing the commands, there has to be `#! /bin/bash` written in the first line of the script, so it will be run by the bash shell.  
-An example from the script where we are using sed –E to substitute everything before the center word ($WF) with the center word and 30 characters before it ( in other words everything before the 30 characters will be deleted):  
-`sed -E "s/.*(.{$CONTEXT}$WF)/\1/" | `
+An example from the script where we are using `sed –E` to substitute everything before the center word (`$WF`) with the center word and 30 characters before it ( in other words everything before the 30 characters will be deleted):  
+`sed -E "s/.*(.{$CONTEXT}$WF)/\1/" | `  
 and then doing the same thing to every character after the center word + 30 characters:  
 `sed -E "s/($WF.{$CONTEXT}).*/\1/" `  
 
