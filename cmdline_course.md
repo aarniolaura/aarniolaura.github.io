@@ -58,8 +58,7 @@ One more important point in this task: commands can be chained together using pi
 In this week’s lessons we learned about Unix environment variables, which are variables that are set up in the shell when logging in. Each variable has a value assigned to it. We learned how to make an environment variable and how to add it to the .bashrc file, so it will be a permanent setting. We also looked at other things in the .bashrc file, such as how to add aliases, how to set up a nice command line prompt, and how to make changes in the PATH variable.  
 This week we also did two text processing tasks, but instead of writing the commands straight to the command-line, we wrote a script in a text file with a .sh (shell script) extension. One of them was the frequency list task from the previous week, and the another was about creating a concordance list for a particular word, in this case, _queen_:  
 
-![Corcordance for word queen](aarniolaura.github.io/assets/img/concordance.jpg)  
-
+![Corcordance for word queen](https://raw.githubusercontent.com/aarniolaura/aarniolaura.github.io/cmdline-course/assets/img/concordance.jpg) 
 
 
 ### Week 5. Installing and Running Programs
