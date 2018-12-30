@@ -33,3 +33,7 @@ Here is my [Curriculum Vitae](/assets/documents/CV_LauraAarnio.pdf).
 ## Misc. 
 
 [General Linguistics in University of Helsinki](https://www.helsinki.fi/en/faculty-of-arts/research/disciplines/languages/general-linguistics) 
+
+[Webcomics](https://tapas.io/comics?sort_type=LIKE&browse=ALL&genre=1)
+
+[A Firelit Room](http://adarkroom.doublespeakgames.com/)
